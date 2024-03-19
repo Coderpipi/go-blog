@@ -1,0 +1,18 @@
+app:
+  name: blog-admin
+  port: 9001
+
+logger:
+  log_level: info
+  prefix: '[blog]'
+  director: log
+  show_line: true
+  print_console: true
+
+mysql:
+  username: root
+  password: 123456
+  host: 127.0.0.1
+  port: 3306
+  db: blog_db
+
